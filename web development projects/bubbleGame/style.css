@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(73, 77, 87);
+}
+#panel1{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(161, 212, 165);
+}
+.elem{
+    width: 10%;
+    margin: 0px 80px;
+}
+.box{
+    font-size: 25px;
+    font-weight: 700;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+#panelbtm{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: blueviolet;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color:rgb(97, 97, 130);
+}

@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgb(2, 2, 33);
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 97px;
+    background-color: rgb(3, 2, 12);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li:hover{
+    color: rgb(218, 99, 214);
+    font-size: 1.07rem;
+}
+.left {
+    font-size: 1.8rem;
+}
+
+/* first section styling */
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.first div {
+    width: 30%;
+}
+main hr {
+    margin: 40px 84px;
+    border: 2.5px solid rgb(77, 97, 97);
+}
+.leftsection {
+    font-size: 3rem;
+    margin-top: 70px;
+}
+.rightsection img {
+    width:100%;
+    height: 450px;
+}
+.purple {
+    color: blueviolet;
+}
+
+/* styling typed js script */
+#element {
+    color: blueviolet;
+}
+
+/* styling second section */
+
+.secondsection {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+.secondsection span {
+    color: grey;
+}
+.secondsection .box {
+    color: white;
+    width: 30vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical {
+    width: 1px;
+    height: 90px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+/* styling second section sub class box */
+.image-top {
+    position: relative;
+    width: 23px;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    margin-top: 70px;
+}
+
+/* styling footer section */
+footer {
+    height: 230px;
+    background-color:#0e0e1a;
+}
+
+.footerclass {
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-around;
+}
+
+.footer-second {
+    text-decoration: none;
+    font-size: large;
+}
+.footer-third {
+    text-decoration: none;
+    font-size: large;
+}
+.footer-fourth {
+    text-decoration: none;
+    font-size: large;
+}
+.footer-second:hover {
+    color: blueviolet;
+}
+.footer-third:hover {
+    color: blueviolet;
+}
+.footer-fourth:hover {
+    color: blueviolet;
+}
+.footer-rights {
+    display: inline;
+}

@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border:border-box ;
+}
+.navbar {
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* box 1 */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("images/amazon_logo.png");
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+}
+
+
+/* for hover conditions */
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+.first-box {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.second-box {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+
+/* box 3 */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 625px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-all {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-amazon {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-item {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:rgb(216, 118, 12);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* box 4 sign in bar */
+
+span {
+    font-size: 0.7rem;
+}
+.signin2 {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box 6 */
+.nav-cart i {
+    font-size: 2rem;
+}
+
+/* panel styling */
+.panel {
+    height: 40px;
+    background-color: #2222fd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-option p {
+    display: inline;
+    margin-left: 40px;
+}
+
+.panel-option {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.panel-all {
+    margin-right: 200px;
+}
+
+/* hero section styling */
+.hero-section {
+    background-image: url("images/hero_image.jpg");
+    height: 400px;
+    background-size: cover;
+}
+
+/* shopping section styling */
+.shopping-section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box  {
+    height: 300px;
+    width: 21%;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+/* box1 box styling */
+
+.box1-image {
+    background-image: url("images/box1_image.jpg");
+    height: 250px;
+    background-size: cover;
+}
+
+.box1-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* box2 box styling */
+
+.box2-image {
+    background-image: url("images/box2_image.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.box2-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* box3 box styling */
+.box3-image {
+    background-image: url("images/box3_image.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.box3-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* box4 box styling */
+.box4-image {
+    background-image: url("images/box4_image.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.box4-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* box5 box styling */
+.box5-image {
+    background-image: url("images/box5_image.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.box5-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* box6 box styling */
+.box6-image {
+    background-image: url("images/box6_image.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.box6-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* box7 box styling */
+.box7-image {
+    background-image: url("images/box7_image.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.box7-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* box8 box styling */
+.box8-image {
+    background-image: url("images/box8_image.jpg");
+    height: 250px;
+    background-size: cover;
+}
+.box8-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
